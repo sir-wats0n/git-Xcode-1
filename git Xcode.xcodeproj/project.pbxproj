@@ -14,6 +14,7 @@
 		6359677D1EECA59D00560B93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6359677B1EECA59D00560B93 /* LaunchScreen.storyboard */; };
 		635967881EECA59D00560B93 /* git_XcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635967871EECA59D00560B93 /* git_XcodeTests.swift */; };
 		635967931EECA59D00560B93 /* git_XcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635967921EECA59D00560B93 /* git_XcodeUITests.swift */; };
+		635967A11EECBC3400560B93 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635967A01EECBC3400560B93 /* mapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6359678E1EECA59D00560B93 /* git XcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "git XcodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		635967921EECA59D00560B93 /* git_XcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = git_XcodeUITests.swift; sourceTree = "<group>"; };
 		635967941EECA59D00560B93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635967A01EECBC3400560B93 /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				635967721EECA59D00560B93 /* AppDelegate.swift */,
 				635967741EECA59D00560B93 /* ViewController.swift */,
+				635967A01EECBC3400560B93 /* mapViewController.swift */,
 				635967761EECA59D00560B93 /* Main.storyboard */,
 				635967791EECA59D00560B93 /* Assets.xcassets */,
 				6359677B1EECA59D00560B93 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635967A11EECBC3400560B93 /* mapViewController.swift in Sources */,
 				635967751EECA59D00560B93 /* ViewController.swift in Sources */,
 				635967731EECA59D00560B93 /* AppDelegate.swift in Sources */,
 			);
